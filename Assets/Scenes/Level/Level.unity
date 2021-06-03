@@ -649,8 +649,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 808267589}
   anim: {fileID: 913247087}
-  forwardSpeed: 10
-  maxSpeed: 30
+  forwardSpeed: 15
+  maxSpeed: 100
   laneDistance: 2.5
   jumpForce: 13
   gravity: -30

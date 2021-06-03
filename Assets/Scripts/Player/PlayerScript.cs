@@ -42,7 +42,7 @@ public class PlayerScript : MonoBehaviour
         anim.SetBool("isGrounded", true);
         if (forwardSpeed < maxSpeed)
         {
-            forwardSpeed += 0.2f * Time.fixedDeltaTime;
+            forwardSpeed += 0.3f * Time.fixedDeltaTime;
         }
         direction.z = forwardSpeed;
         controller.Move(direction * Time.fixedDeltaTime);
@@ -79,7 +79,6 @@ public class PlayerScript : MonoBehaviour
             desiredLane++;
             if (desiredLane == 3)
             {
-                transform.rotation = Quaternion.Euler(0, 90f, 0);
                 desiredLane = 2;
             }
         }
