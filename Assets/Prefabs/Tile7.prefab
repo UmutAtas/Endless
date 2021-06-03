@@ -73,9 +73,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -400310251153081761, guid: 43150cade482e1841b4aa07a86d22828, type: 3}
-  - {fileID: 6061862182945386846, guid: 43150cade482e1841b4aa07a86d22828, type: 3}
-  - {fileID: -2653651044934150266, guid: 43150cade482e1841b4aa07a86d22828, type: 3}
+  - {fileID: 2100000, guid: 03b4f60c1ce5fce4a9b9583e8b684b7f, type: 2}
+  - {fileID: 2100000, guid: a868bd4fa69cd0b4ab8947f778ff83b1, type: 2}
+  - {fileID: 2100000, guid: 9d13cb9baa2e54541b535d22fbd21e9d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -203,6 +203,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ef6a7e15177793d468aa7e54e5a3178b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6e5c3c92d5dbd9c418d3b65a79af353b, type: 2}
+    - target: {fileID: -7511558181221131132, guid: ef6a7e15177793d468aa7e54e5a3178b, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 556da66405402274b9857cc88ae20bc5, type: 2}
     - target: {fileID: 919132149155446097, guid: ef6a7e15177793d468aa7e54e5a3178b, type: 3}
       propertyPath: m_Name
       value: RoadWorksBarrierLow
